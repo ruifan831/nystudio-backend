@@ -5,7 +5,6 @@ services:
         container_name: node-nystudio
         ports:
             - "3000:3000"
-        restarts: always
         environment:
             API_URl: /api/v1
             CONNECTION_STRING: mongodb+srv://semi-sugar:7789989865_Rex@cluster0.uvr70.mongodb.net/nystudio-database?retryWrites=true&w=majority
